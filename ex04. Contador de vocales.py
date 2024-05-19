@@ -19,6 +19,6 @@ def contar_vocales(palabra):
 
 palabra_usuario = input('Introduce palabra: ')
 numero_vocales = contar_vocales(palabra_usuario)
-print("El número de vocales de la palabra '{}' es: {}".format(palabra_usuario,numero_vocales))
+print("El número de vocales de la palabra {} es: {}".format(palabra_usuario,numero_vocales))
 
 
